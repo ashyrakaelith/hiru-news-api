@@ -54,7 +54,7 @@ async function getHiruNews() {
 app.get("/", (req, res) => {
     res.json({
         success: true,
-        message: "Hiru News API is running",
+        message: "Hiru News API is running Developed By DEV.DINUWA | Contact : 94725122871",
         endpoints: {
             news: "/api/news"
         }
