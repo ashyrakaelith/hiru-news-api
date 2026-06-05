@@ -39,7 +39,7 @@ async function getHiruNews() {
 // Home
 app.get("/", (req, res) => {
     res.json({
-        developer: "Your Name",
+        developer: "DEV.DINUWA",
         endpoints: {
             latest_news: "/api/news"
         }
